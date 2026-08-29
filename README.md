@@ -174,6 +174,8 @@ for a plain Flask app like this one.
 
 ## Results (on included synthetic dataset)
 
+
+
 See `models/results_summary.json` for full metrics. On the real Kaggle
 dataset, expect more realistic numbers — typically 85–95% recall and
 high but non-perfect precision, since real fraud patterns overlap more
@@ -194,6 +196,8 @@ with legitimate transactions than this synthetic data does.
 4. **Why explainability matters:** In finance, a "black box" flag isn't
    enough — analysts need to know *why* a transaction was flagged, both
    for trust and for regulatory/audit reasons.
+
+   
 
 ## Next Steps (8th Sem Major Project Extension)
 
