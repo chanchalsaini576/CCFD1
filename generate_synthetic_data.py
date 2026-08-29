@@ -14,10 +14,14 @@ import pandas as pd
 import numpy as np
 import os
 
+
+
 np.random.seed(42)
 
 n_normal = 20000
 n_fraud = 100  # ~0.5% fraud rate, matching the real dataset's imbalance
+
+
 
 
 def make_rows(n, fraud=False):
